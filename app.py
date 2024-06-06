@@ -11,5 +11,9 @@ import PySimpleGUI as sg
 sg.theme('reddit')
 
 layout = [
-    
+    [sg.Text('E-mail'),sg.Input(key='email')],
+    [],
+    [],
+    [],
+    []  
 ]
