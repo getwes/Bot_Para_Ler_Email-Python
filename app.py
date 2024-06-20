@@ -25,3 +25,12 @@ while True:
     event, values = janela.read()
     if event == sg.WIN_CLOSED:
         break
+    elif event == 'Salvar':
+        email = values['email']
+        senha = values['senha']
+        caminho_pasta_anexos = values['input_anexos']
+        caminho_pasta_planilha = values['input_planilha']
+        print(f' o e-mail digitado foi {email}')
+        print(f' a senha digitado foi {senha}')
+        print(f' o caminho da pasta de anexo é {caminho_pasta_anexos}')
+        print(f'o caminho da pasta da pllanilha é {caminho_pasta_planilha}')
